@@ -78,7 +78,9 @@ nav {
     border-radius: 10px;
     border:none;
 }
-
+ button:hover {
+  background-color: #3737e8;
+}
 .see{
     font-size: 42px;
     font-weight: bold;
@@ -183,3 +185,58 @@ nav {
     margin-bottom: 5px;
     font-size: 16px;
  }
+
+ /* lets meet */
+
+ /* .touch-header{
+   text-align: center;
+   margin-top: 200px;
+ } */
+
+ .contact-section {
+  padding: 50px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between; 
+  margin: auto; 
+  gap: 50px;
+}
+
+.contact-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+/* .contact-form {
+  flex: 1;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600px;
+  color: #000000;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  background-color: white;
+  font-size: 16px;
+  box-shadow: 0 2px 5px #928ff7;
+}
+
+textarea {
+  resize: none;
+}
+
