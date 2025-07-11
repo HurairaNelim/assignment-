@@ -1,11 +1,5 @@
 /* fonts */
 
-.inter-Logo {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -20,7 +14,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+     margin: 50px 0; 
     
+    
+}
+
+.main{
+
+    max-width: 1135px;
+    margin:0 auto;
 }
 
 
@@ -30,7 +32,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 
 .nav-title {
@@ -49,10 +51,21 @@ nav {
     font-size: 65px;
     font-weight: bold;
 }
+/* background color */
+
+.primary-bg{
+    background-color:#eae9fd;
+}
+
+.secondary-bg{
+    background-color: #d4ccfa;
+ }
+    
+ 
 
 /* shared style */
 
-.text-secondary{color: #252432;}
+.text-secondary{color: #57575e;}
 
 .text-primary{color: #4E47FF;}
 
@@ -72,13 +85,63 @@ nav {
 
 }
 
+
 /* section */
 
-#Explore{
-    font-size: 24px;
-    font-weight: normal;
+.txt-font{
+    font-size: 25px;
+    font-weight: 600px;
+    
+    
 }
+
 
 .space{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    
+}
+
+.sec-img{
+    border-width: 400px;
+    border-radius: 45px;
 
 }
+
+ /* users section  */
+
+ .padd-lock{
+    border-radius: 10px;
+    padding: 50px 140px;
+    margin-top: 100px;
+ }
+ 
+
+ .user-head{
+
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+ }
+
+    
+ .about-items{
+
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .item-title{
+
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ .item-des{
+    font-size: 20px;
+     
+ }
+
