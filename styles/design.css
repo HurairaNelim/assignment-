@@ -54,7 +54,7 @@ nav {
 /* background color */
 
 .primary-bg{
-    background-color:#eae9fd;
+    background-color:#f5f8ff;
 }
 
 .secondary-bg{
@@ -186,13 +186,7 @@ nav {
     font-size: 16px;
  }
 
- /* lets meet */
-
- /* .touch-header{
-   text-align: center;
-   margin-top: 200px;
- } */
-
+ 
  .contact-section {
   padding: 50px;
 }
@@ -209,9 +203,6 @@ nav {
   margin: 0;
 }
 
-/* .contact-form {
-  flex: 1;
-} */
 
 form {
   display: flex;
@@ -230,7 +221,6 @@ textarea {
   padding: 15px;
   border: none;
   border-radius: 6px;
-  margin-bottom: 20px;
   background-color: white;
   font-size: 16px;
   box-shadow: 0 2px 5px #928ff7;
@@ -240,3 +230,35 @@ textarea {
   resize: none;
 }
 
+/* footer */
+
+.footer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+  border-top: 2px 
+  border-bottom: 2px 
+}
+
+.footer-logo {
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 15px auto 30px;
+  font-size: 17px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #57575e;
+  font-size: 18px;
+}
